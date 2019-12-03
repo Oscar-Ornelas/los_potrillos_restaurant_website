@@ -1,0 +1,13 @@
+form {
+  margin: auto;
+  width: 40em;
+}
+
+label {
+  margin-top: 1.0rem;
+  color: white;
+}
+
+button {
+  margin-bottom: 20px;
+}

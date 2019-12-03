@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{%block body_block%}
+
+<link rel="stylesheet" href="{% static 'css/location.css' %}">
+
+
+    <div id="map"></div>
+    
+<script src="{% static "js/location.js" %}" charset="utf-8"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAF2YdYy_UDF7aykmjPq_w3TpUKAsG9p2w&callback=initMap"></script>
+
+{%endblock%}

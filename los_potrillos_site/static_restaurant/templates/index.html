@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_block %}
+
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+<div class= "container">
+  <div class="row">
+    <div class="col col-md-4 col-6">
+      <img class="img-thumbnail" src="{% static "images/carne_asada.jpg" %}" >
+    </div>
+    <div class="col col-md-4 col-6">
+      <img class="img-thumbnail" src="{% static "images/caldo.jpg" %}" alt="">
+    </div>
+    <div class="col col-md-4 col-6">
+      <img class="img-thumbnail" src="{% static "images/shots.png" %}" alt="">
+    </div>
+    <div class="col col-md-4 col-6">
+      <img class="img-thumbnail" src="{% static "images/nachos.png" %}">
+    </div>
+    <div class="col col-md-4 col-6">
+      <img class="img-thumbnail img-fluid" src="{% static "images/t-bone.jpg" %}" alt="">
+    </div>
+    <div class="col col-md-4 col-6">
+      <img class="img-thumbnail img-fluid" src="{% static "images/cazuela.jpg" %}" alt="">
+    </div>
+    <div class="col col-6 col-md-4">
+      <video class="img-thumbnail text-center" controls>
+        <source src="{% static "videos/karaoke_new_one.mp4" %}" type="video/mp4">
+      </video>
+    </div>
+    <div class="col col-6 col-md-4">
+      <video class="img-thumbnail text-center" controls>
+        <source src="{% static "videos/karaoke_two.mp4" %}"  type="video/mp4">
+      </video>
+    </div>
+    <div class="col col-6 col-md-4">
+      <video class="img-thumbnail text-center" controls>
+        <source src="{% static "videos/karaoke_three.mp4" %}" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+
+{%endblock%}

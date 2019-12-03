@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{%block body_block%}
+
+<link rel="stylesheet" href="{% static 'css/menu.css'%}">
+
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-6 col-12">
+          <img class="img-thumbnail" src="{% static "images/menu_mexican_plates.jpg" %}" >
+        </div>
+        <div class="col col-md-6 col-12">
+          <img class="img-thumbnail" src="{% static "images/menu_botanas.jpg" %}" alt="">
+        </div>
+        <div class="col col-md-6 col-12">
+          <img class="img-thumbnail" src="{% static "images/menu_steaks.jpg" %}" alt="">
+        </div>
+        <div class="col col-md-6 col-12">
+          <img class="img-thumbnail" src="{% static "images/menu_steaks_two.jpg" %}">
+        </div>
+        <div class="col col-md-6 col-12">
+          <img class="img-thumbnail img-fluid" src="{% static "images/menu_mariscos.jpg" %}" alt="">
+        </div>
+        <div class="col col-md-6 col-12">
+          <img class="img-thumbnail img-fluid" src="{% static "images/menu_mariscos_two.jpg" %}" alt="">
+        </div>
+        <div class="col col-md-6 col-12">
+          <img class="img-thumbnail img-fluid" src="{% static "images/menu_kids.jpg" %}" alt="">
+        </div>
+      </div>
+    </div>
+
+{%endblock%}
